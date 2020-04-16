@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="80dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background_category_row"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/row_category_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        android:maxLines="1"
+        android:text="@string/title_list_category"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"></TextView>
+
+    <ImageView
+        android:id="@+id/row_category_edit_btn"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:layout_alignEnd="@+id/row_category_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_edit_24dp" />
+
+
+
+</RelativeLayout>

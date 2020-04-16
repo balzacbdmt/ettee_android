@@ -1,0 +1,19 @@
+{
+  "shops": [
+    {
+      "id": 1,
+      "name": "Franprix",
+      "idAddress": 1
+    },
+    {
+      "id": 2,
+      "name": "HyperU",
+      "idAddress": 2
+    },
+    {
+      "id": 3,
+      "name": "Balenciaga",
+      "idAddress": 3
+    }
+  ]
+}

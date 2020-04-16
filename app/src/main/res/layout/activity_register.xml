@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.RegisterActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/register_appTitle"
+                android:layout_width="194dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="80dp"
+                android:height="20dp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/app_name"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textFontWeight="500"
+                android:textSize="64dp" />
+
+            <TextView
+                android:id="@+id/register_title"
+                android:layout_width="wrap_content"
+                android:layout_height="61dp"
+                android:layout_marginTop="32dp"
+                android:height="20dp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/signUp"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="36sp" />
+
+            <EditText
+                android:id="@+id/register_input_mail"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/mailAdress"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:inputType="textEmailAddress"
+                android:textAlignment="center"
+                android:textCursorDrawable="@color/colorPrimary"
+                android:theme="@style/edit_text" />
+
+            <EditText
+                android:id="@+id/register_input_password"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/password"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:inputType="textPassword"
+                android:textAlignment="center"
+                android:textCursorDrawable="@color/colorPrimary"
+                android:theme="@style/edit_text" />
+
+            <EditText
+                android:id="@+id/register_input_passwordConfirm"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/passwordConfirmation"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:inputType="textPassword"
+                android:textAlignment="center"
+                android:textCursorDrawable="@color/colorPrimary"
+                android:theme="@style/edit_text" />
+
+            <Button
+                android:id="@+id/register_btn_register"
+                android:layout_width="250dp"
+                android:layout_height="65dp"
+                android:text="@string/signUp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:theme="@style/btn_large" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

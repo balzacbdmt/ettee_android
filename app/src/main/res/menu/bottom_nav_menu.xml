@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_24dp"
+        android:title="@string/title_home"
+        android:fontFamily="@font/montserrat" />
+
+    <item
+        android:id="@+id/navigation_list_receipt"
+        android:icon="@drawable/ic_list_24dp"
+        android:title="@string/title_list_receipt"
+        android:fontFamily="@font/montserrat"/>
+
+    <item
+        android:id="@+id/navigation_add_receipt"
+        android:icon="@drawable/ic_add_24dp"
+        android:title="@string/title_add_receipt"
+        android:fontFamily="@font/montserrat" />
+
+    <item
+        android:id="@+id/navigation_list_category"
+        android:icon="@drawable/ic_list_24dp"
+        android:title="@string/title_list_category"
+        android:fontFamily="@font/montserrat" />
+
+    <item
+        android:id="@+id/navigation_account"
+        android:icon="@drawable/ic_person_24dp"
+        android:title="@string/title_account"
+        android:fontFamily="@font/montserrat" />
+
+</menu>

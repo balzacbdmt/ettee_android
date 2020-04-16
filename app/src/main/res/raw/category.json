@@ -1,0 +1,44 @@
+{
+  "category": [
+    {
+      "id": 1,
+      "name": "Loisirs & divertissement",
+      "color": "#9683EC"
+    },
+    {
+      "id": 2,
+      "name": "Courses & alimentation",
+      "color": "#FAF0E6"
+    },
+    {
+      "id": 3,
+      "name": "Restaurant & bars",
+      "color": "#D473D4"
+    },
+    {
+      "id": 4,
+      "name": "Santé",
+      "color": "#CFA0E9"
+    },
+    {
+      "id": 5,
+      "name": "Shopping",
+      "color": "#DD985C"
+    },
+    {
+      "id": 6,
+      "name": "Transport & véhicules",
+      "color": "#926D27"
+    },
+    {
+      "id": 7,
+      "name": "Amendes",
+      "color": "#689D71"
+    },
+    {
+      "id": 8,
+      "name": "Divers",
+      "color": "#723E64"
+    }
+  ]
+}

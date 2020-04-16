@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_receipt_row"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp" >
+
+    <TextView
+        android:id="@+id/row_receipt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/row_receipt_shop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/row_receipt_name"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"></TextView>
+
+    <TextView
+        android:id="@+id/row_receipt_amount"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="280dp"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"></TextView>
+
+    <TextView
+        android:id="@+id/row_receipt_date"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="25dip"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        tools:text="@tools:sample/date/ddmmyy"></TextView>
+
+</RelativeLayout>

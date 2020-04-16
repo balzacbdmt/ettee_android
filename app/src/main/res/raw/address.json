@@ -1,0 +1,36 @@
+{
+  "address": [
+    {
+      "id": 1,
+      "number": 55,
+      "street": "Rue de Cannes",
+      "city": "Nice",
+      "country": "France",
+      "zipcode": "06100"
+    },
+    {
+      "id": 2,
+      "number": 23,
+      "street": "Rue de la tournelle",
+      "city": "Solers",
+      "country": "France",
+      "zipcode": "77111"
+    },
+    {
+      "id": 3,
+      "number": 6,
+      "street": "Voie du courage",
+      "city": "La-ville-du-bois",
+      "country": "France",
+      "zipcode": "91500"
+    },
+    {
+      "id": 4,
+      "number": 135,
+      "street": "Avenue du Géneral De Gaulls",
+      "city": "Mimizan",
+      "country": "France",
+      "zipcode": "33455"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">Ettee</string>
+    <!-- Sign in / Sign up / Welcome activity -->
+    <string name="welcome">Welcome</string>
+    <string name="signIn">Sign in</string>
+    <string name="signOut">Sign out</string>
+    <string name="signUp">Sign up</string>
+    <string name="mailAdress">Mail address</string>
+    <string name="password">Password</string>
+    <string name="passwordConfirmation">Password confirmation</string>
+
+    <!-- Home fragment -->
+    <string name="title_home">Home</string>
+    <string name="lastAddedReceipt">Last added receipt</string>
+    <string name="pinnedReceipt">Pinned receipt</string>
+
+    <!-- Add receipt fragment -->
+    <string name="title_add_receipt">Add a receipt</string>
+    <string name="AR_name">Name</string>
+    <string name="AR_date">Date</string>
+    <string name="AR_shop">Shop</string>
+    <string name="AR_amount">Amount</string>
+    <string name="AR_paymentmethod">Payment method</string>
+    <string name="AR_category">Category</string>
+    <string name="AR_commentary">Commentary</string>
+    <string name="AR_add_btn">Save receipt</string>
+
+    <!-- Activity Detail receipt -->
+    <string name="title_detailreceipt">Detail of receipt</string>
+    <string name="detailreceipt_name">Name</string>
+    <string name="detailreceipt_date">Date</string>
+    <string name="detailreceipt_shop">Shop</string>
+    <string name="detailreceipt_amount">Amount</string>
+    <string name="detailreceipt_paymentmethod">Payment method</string>
+    <string name="detailreceipt_category">Category</string>
+    <string name="detailreceipt_commentary">Commentary</string>
+    <string name="detailreceipt_pinned">Pinned</string>
+
+    <!-- Add receipt fragment -->
+    <string name="title_list_receipt">Your receipt</string>
+    <string name="new_image">Add a picture</string>
+
+    <!-- Account fragment -->
+    <string name="title_account">Your account</string>
+    <string name="account_email">Your email</string>
+    <string name="account_password">Your password</string>
+    <string name="account_username">Your user name</string>
+    <string name="account_firstname">Your first name</string>
+    <string name="account_lastname">Your last name</string>
+    <string name="account_address">Your address</string>
+    <string name="account_currency">Your currency</string>
+
+    <!-- category fragment -->
+    <string name="title_list_category">Category</string>
+    <string name="add_category">New Category</string>
+
+    <!-- Dialog new / add shop -->
+    <string name="title_dialog_new_shop">Add a new Shop</string>
+    <string name="title_dialog_edit_shop">Edit a Shop</string>
+    <string name="dialog_new_shop_name">Shop name</string>
+    <string name="dialog_new_shop_add">Add shop</string>
+    <string name="dialog_new_shop_cancel">Cancel</string>
+
+    <!-- Dialog empty field in add receipt -->
+    <string name="dialog_empty_field_title" translatable="false">Oops..</string>
+    <string name="dialog_empty_field_message">Name your receipt please</string>
+    <string name="dialog_empty_field_ok">Alright !</string>
+
+    <!-- Dialog empty field in add receipt -->
+    <string name="current_password">Current password</string>
+    <string name="new_password">New password</string>
+    <string name="confirm_new_password">Confirm new password</string>
+
+    <!-- Dialog address -->
+    <string name="address_your">Your address</string>
+    <string name="address_shop">Shop address</string>
+    <string name="address_number">Number</string>
+    <string name="address_street">Street</string>
+    <string name="address_city">City</string>
+    <string name="address_country">Country</string>
+    <string name="address_zipCcode">Zip code</string>
+
+    <!-- Dialog category -->
+    <string name="new_category">New category</string>
+    <string name="edit_category">Edit category</string>
+    <string name="category_name">Category name</string>
+    <string name="category_color">Category color</string>
+
+    <!-- Other -->
+    <string name="lorem_ipsum_5" translatable="false">Lorem ipsum dolor sit amet</string>
+    <string name="passwordHidden" translatable="false">**********</string>
+    <string name="update">Update</string>
+    <string name="delete_answer">Delete this receipt ?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="undefined">Undefined</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="select_file">Select from file</string>
+
+
+    <!-- Currency -->
+    <string name="euro">€ (euro)</string>
+    <string name="dollars">$ (dollars)</string>
+    <string name="pound_sterling">£ (pound sterling)</string>
+</resources>
